@@ -1,0 +1,90 @@
+/* AddVideojuegoForm.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .add-videojuego-form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-videojuego-form-container h2 {
+    font-size: 26px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-videojuego-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-videojuego-form-container form div {
+    margin-bottom: 15px;
+  }
+  
+  .add-videojuego-form-container label {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .add-videojuego-form-container input[type="text"],
+  .add-videojuego-form-container input[type="date"],
+  .add-videojuego-form-container input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  .add-videojuego-form-container input[type="text"]:focus,
+  .add-videojuego-form-container input[type="date"]:focus,
+  .add-videojuego-form-container input[type="number"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .add-videojuego-form-container button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-videojuego-form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .add-videojuego-form-container {
+      padding: 15px;
+      margin: 20px;
+    }
+  
+    .add-videojuego-form-container h2 {
+      font-size: 22px;
+    }
+  
+    .add-videojuego-form-container button {
+      font-size: 16px;
+    }
+  }
+  

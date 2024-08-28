@@ -1,3 +1,6 @@
+@import './css/Product.css';
+@import './css/ProductList.css';
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,55 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/* src/css/Product.css */
+
+.product-container {
+  border: 1px solid #ddd;
+  border-radius: 8px; 
+  padding: 16px; 
+  margin: 16px; 
+  background-color: #f9f9f9; 
+  width: 300px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; 
+}
+
+.product-container img {
+  max-width: 100%; 
+  height: auto; 
+  border-radius: 4px;
+}
+
+.product-container h2 {
+  font-size: 1.2rem;
+  margin: 12px 0; 
+}
+
+.product-container p {
+  font-size: 1rem;
+  color: #333;
+  margin: 8px 0; 
+}
+
+.product-container button {
+  padding: 10px 20px; 
+  border: none; 
+  background-color: #007bff; 
+  color: white; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  font-size: 1rem; 
+}
+
+.product-container button:hover {
+  background-color: #0056b3; 
+}
+/* src/pages/ProductList.css */
+
+.product-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; 
+  justify-content: center; 
 }

@@ -1,0 +1,66 @@
+/* VideojuegoList.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .videojuegos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the items */
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .videojuego-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .videojuego-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .videojuego-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .videojuego-item a:hover {
+    color: #007bff;
+  }
+  
+  .videojuego-item img {
+    width: 100%;
+    height: 150px; 
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .videojuego-item p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  
